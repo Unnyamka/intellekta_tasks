@@ -3,11 +3,6 @@ package com.intellekta.linkedmassive.etalon;
 
 import java.util.*;
 
-/*TODO: Не забудь добавить определение метода toString:
-    @Override
-    public String toString(){
-        return getName()+getVersion();
-    }*/
 
 public class Installer implements Subsystem {
     List<Subsystem> endpointList = new ArrayList<>();
